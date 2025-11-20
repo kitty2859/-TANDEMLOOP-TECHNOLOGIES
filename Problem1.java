@@ -1,26 +1,5 @@
 import java.util.Scanner;
 
-class Calculator {
-    double a;
-    double b;
-    String opr;
-
-    double calculate() {
-        if (opr.equals("Add")) {
-            return a + b;
-        } else if (opr.equals("Subtract")) {
-            return a - b;
-        } else if (opr.equals("Multiply")) {
-            return a * b;
-        } else if (opr.equals("Divide")) {
-            return a / b;
-        } else {
-            System.out.print("Invalid operation: ");
-            return 0;
-        }
-    }
-}
-
 public class Problem1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -42,3 +21,25 @@ public class Problem1 {
         System.out.println("Result: " + result);
     }
 }
+
+class Calculator {
+    double a;
+    double b;
+    String opr;
+
+    double calculate() {
+        if (opr.equals("Add")) {
+            return a + b;
+        } else if (opr.equals("Subtract")) {
+            return a - b;
+        } else if (opr.equals("Multiply")) {
+            return a * b;
+        } else if (opr.equals("Divide")) {
+            return a / b;
+        } else {
+            System.out.print("Invalid operation: ");
+            return 0;
+        }
+    }
+}
+
