@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Calculator{
+class Problem1{
     double a;
     double b;
     String opr;
@@ -37,3 +37,4 @@ public class Problem1{
         System.out.println("Result:"+result);
     }
 }
+
